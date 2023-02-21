@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="DEMOAUT">
+
+   <test name="Demoaut" >
+       <classes>
+           <class name="Demoaut.DemoautPageObject">
+           <methods>
+          <include name="launchURL"/>
+          <include name="DemoAccount"/>
+          <include name="VisitWebsite"/>
+          <include name="StartTrading"/>
+        </methods>
+           </class>
+       </classes>
+   </test>
+</suite>
